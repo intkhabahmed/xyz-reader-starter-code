@@ -17,12 +17,11 @@
 
 <resources>
     <color name="photo_placeholder">#ccc</color>
-
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
     <color name="colorPrimary">#2e7d32</color>
     <color name="colorPrimaryDark">#1b5e20</color>
     <color name="colorAccent">#e53935</color>
+    <color name="metaBarBackground">#333333</color>
+    <color name="article_by_line_bg">#8FFF</color>
+    <color name="article_subtitle_color">#6000</color>
 </resources>

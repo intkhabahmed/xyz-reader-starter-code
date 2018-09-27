@@ -22,12 +22,12 @@
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/detail_photo_height"
-                    android:scaleType="centerCrop"
-                    android:contentDescription="@string/article_image" />
+                    android:contentDescription="@string/article_image"
+                    android:scaleType="centerCrop" />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="112dp"
+                    android:layout_height="@dimen/appbar_height"
                     android:background="@drawable/photo_background_protection" />
 
             </FrameLayout>
@@ -38,7 +38,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/detail_card_top_margin"
                 android:background="#fff"
-                android:elevation="2dp"
+                android:elevation="@dimen/xx_small_space"
                 android:maxWidth="@dimen/detail_card_max_width"
                 android:orientation="vertical">
 
@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="@dimen/detail_metabar_vert_padding"
-                    android:background="#333"
+                    android:background="@color/metaBarBackground"
                     android:orientation="vertical"
                     android:paddingLeft="@dimen/detail_inner_horiz_margin"
                     android:paddingTop="@dimen/detail_metabar_vert_padding"
@@ -72,7 +72,7 @@
                         style="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#8fff" />
+                        android:textColor="@color/article_by_line_bg" />
                 </LinearLayout>
 
                 <TextView
@@ -93,8 +93,8 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
+        android:layout_width="@dimen/medium_icon_size"
+        android:layout_height="@dimen/medium_icon_size"
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"

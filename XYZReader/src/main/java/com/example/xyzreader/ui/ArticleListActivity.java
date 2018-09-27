@@ -57,9 +57,6 @@ public class ArticleListActivity extends AppCompatActivity implements
 
         Toolbar mToolbar = findViewById(R.id.toolbar);
 
-
-        final View toolbarContainerView = findViewById(R.id.toolbar_container);
-
         mSwipeRefreshLayout = findViewById(R.id.swipe_refresh_layout);
 
         mRecyclerView = findViewById(R.id.recycler_view);

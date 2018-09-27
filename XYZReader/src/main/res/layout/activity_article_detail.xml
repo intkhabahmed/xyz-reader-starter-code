@@ -15,7 +15,7 @@
 
         <ImageButton
             android:id="@+id/action_up"
-            android:layout_width="56dp"
+            android:layout_width="@dimen/medium_icon_size"
             android:layout_height="?actionBarSize"
             android:background="?selectableItemBackgroundBorderless"
             android:contentDescription="@string/up"
@@ -25,8 +25,8 @@
 
     <ProgressBar
         android:id="@+id/loading_pb"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
+        android:layout_width="@dimen/medium_icon_size"
+        android:layout_height="@dimen/medium_icon_size"
         android:layout_gravity="center"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 </FrameLayout>
